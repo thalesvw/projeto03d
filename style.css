@@ -30,6 +30,7 @@ h2 {
   line-height: 34px;
   color: #535971;
   font-weight: normal;
+  margin-top: 32px;
 }
 
 p {
@@ -50,8 +51,8 @@ fieldset legend {
   line-height: 34px;
   color: #535971;
   border-bottom: 1px solid #E6E6F0;
-  width: 100%;
   padding-bottom: 16px;
+  margin-top: 30px;
 }
 
 body::before {
@@ -70,7 +71,7 @@ form {
   min-height: 300px;
   margin-top: 42px;
   border-radius: 20px 20px 0 0;
-  padding: 64px;
+  padding: 34px 64px;
 }
 
 fieldset {
@@ -79,6 +80,7 @@ fieldset {
 
 .name {
   display: flex;
+  gap: 22px;
 }
 
 .input-wrapper {
@@ -94,6 +96,7 @@ fieldset {
 
 .col-3 {
   display: flex;
+  gap: 32px;
 }
 
 footer {
@@ -116,4 +119,49 @@ footer button {
   line-height: 26px;
   color: white;
   border: none;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+  margin-top: 36px;
+  margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+  margin-left: 12px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+}
+
+.input-wrapper label span:hover {
+  color: #635d70;
+}
+
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  height: 56px;
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #635d70;
+  width: 100%;
+}
+
+.input-wrapper textarea {
+  padding: 2px 5px;
+  height: 200px;
+}
+
+.input-wrapper select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
 }
